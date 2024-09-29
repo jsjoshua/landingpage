@@ -1,0 +1,97 @@
+body {
+    background: #000a2e;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+a {
+    text-decoration:none;
+}
+
+#mainDiv {
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+#logo {
+    height: 18vh;
+    margin: 15px;
+    vertical-align: middle;
+    border-style: none;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+#MainText {
+    color: #ffffff;
+    text-align: center !important;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.button {
+    display: block;
+    width: 250px;
+    height: 25px;
+    background: #ffffff;
+    padding: 15px 50px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 15px;
+}
+.button:hover {
+    color: #2d63c8;
+    transition: 0.5s;
+    background-color: #c8c6c6;
+    cursor: pointer;
+}
+
+#social {
+    display: inline-block;
+    column-count: 3;
+    column-gap: 20;
+}
+
+.social_button {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.social_button:hover {
+    color: #2d63c8;
+    transition: 0.5s;
+    background-color: #e6e3e3;
+    cursor: pointer;
+}
